@@ -3,6 +3,7 @@ import Header from '../../components/Header/Header';
 import Hero from '../../components/Hero/Hero';
 import Banner from '../../components/Banner/Banner';
 import './Home.css'
+import Newsletter from '../../components/Newsletter/Newsletter';
 
 const Home = () => {
   return (
@@ -21,7 +22,7 @@ const Home = () => {
 
       {/* SERVICES */}
 
-      {/* NEWSLETTER */}
+      <Newsletter />
 
       {/* FOOTER */}
     </div>
