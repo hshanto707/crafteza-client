@@ -53,7 +53,9 @@ const Header = () => {
               <Badge badgeContent={4} color="primary" className="me-4">
                 <FontAwesomeIcon className="link" icon={faShoppingCart} />
               </Badge>
-              <FontAwesomeIcon className="me-4 link" icon={faHeart} />
+              <Badge badgeContent={4} color="primary" className="me-4">
+                <FontAwesomeIcon className="link" icon={faHeart} />
+              </Badge>
               <FontAwesomeIcon className="link" icon={faUser} />
             </div>
           </Nav>

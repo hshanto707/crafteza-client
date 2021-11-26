@@ -4,7 +4,6 @@
 }
 
 .hero-title {
-  color: var(--dark);
   width: 60%;
   position: absolute;
   top: 50%;
@@ -12,10 +11,12 @@
 }
 
 .hero-title h1 {
+  color: var(--dark);
   font-size: 80px;
 }
 
 .hero-title p {
+  color: var(--lightDark);
   font-size: 20px;
 }
 

@@ -4,7 +4,7 @@ import "./Hero.css";
 
 const Hero = () => {
   return (
-    <Carousel variant="dark" className="hero">
+    <Carousel variant="dark" className="hero" style={{marginBottom: "100px"}}>
       <Carousel.Item>
         <img
           className="hero-img d-block ms-auto"

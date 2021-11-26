@@ -21,8 +21,6 @@ const Footer = () => {
           <h5>Customer Care</h5>
           <p className="link">Help Center</p>
           <p className="link">Contact Us</p>
-          <p className="link">Apply for Financing</p>
-          <p className="link">Prequalify for Financing</p>
           <p className="link">Returns</p>
           <p className="link">Accessibility</p>
           <p className="link">Consumer Notifications</p>
@@ -30,8 +28,6 @@ const Footer = () => {
           <p className="link">Price Match</p>
           <p className="link">Child Safety</p>
           <p className="link">Warranty Information</p>
-          <p className="link">Product Care & Cleanning</p>
-          <p className="link">Furniture Protection Plan</p>
         </div>
         <div>
           <h5>Get Inspired</h5>

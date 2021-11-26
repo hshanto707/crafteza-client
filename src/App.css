@@ -13,6 +13,10 @@ body {
   color: var(--dark);
 }
 
+.link {
+  transition: 0.3s;
+}
+
 .link:hover {
   color: var(--orange);
   cursor: pointer;
