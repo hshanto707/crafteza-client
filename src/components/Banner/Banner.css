@@ -1,0 +1,23 @@
+.banner {
+  position: relative;
+}
+
+.banner-img {
+  width: 50%;
+}
+
+.banner-title {
+  color: var(--dark);
+  position: absolute;
+  width: 40%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.banner-title h1 {
+  font-size: 50px;
+}
+
+.banner-title p {
+  font-size: 20px;
+}

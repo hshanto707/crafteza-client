@@ -7,8 +7,8 @@
   color: var(--dark);
   width: 60%;
   position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 .hero-title h1 {
