@@ -8,3 +8,23 @@
   margin: 0;
   padding: 0;
 }
+
+body {
+  color: var(--dark);
+}
+
+.link:hover {
+  color: var(--orange);
+  cursor: pointer;
+}
+
+.button {
+  border: 1px solid var(--dark);
+  color: var(--dark);
+}
+
+.button:hover {
+  border: 1px solid var(--orange);
+  color: #ffffff;
+  background: var(--orange);
+}

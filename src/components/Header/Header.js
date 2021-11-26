@@ -9,7 +9,6 @@ import { Badge } from "@mui/material";
 import React from "react";
 import {
   Container,
-  Form,
   FormControl,
   Nav,
   Navbar,
@@ -46,16 +45,16 @@ const Header = () => {
                 placeholder="Search Products"
                 aria-label="search-products"
               />
-              <Button variant="outline-secondary" id="button-addon2" className="px-3">
+              <Button variant="outline-secondary" className="px-3 button">
                 <FontAwesomeIcon icon={faSearch} />
               </Button>
             </InputGroup>
             <div className="d-flex fs-4 my-auto">
-              <Badge badgeContent={4} color="primary" className="me-3">
-                <FontAwesomeIcon icon={faShoppingCart} />
+              <Badge badgeContent={4} color="primary" className="me-4">
+                <FontAwesomeIcon className="link" icon={faShoppingCart} />
               </Badge>
-              <FontAwesomeIcon className="me-3" icon={faHeart} />
-              <FontAwesomeIcon icon={faUser} />
+              <FontAwesomeIcon className="me-4 link" icon={faHeart} />
+              <FontAwesomeIcon className="link" icon={faUser} />
             </div>
           </Nav>
         </Navbar.Collapse>

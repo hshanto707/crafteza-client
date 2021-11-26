@@ -4,6 +4,7 @@ import Hero from '../../components/Hero/Hero';
 import Banner from '../../components/Banner/Banner';
 import './Home.css'
 import Newsletter from '../../components/Newsletter/Newsletter';
+import Footer from '../../components/Footer/Footer';
 
 const Home = () => {
   return (
@@ -24,7 +25,7 @@ const Home = () => {
 
       <Newsletter />
 
-      {/* FOOTER */}
+      <Footer />
     </div>
   );
 };
