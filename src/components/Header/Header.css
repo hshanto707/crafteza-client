@@ -1,4 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
 .header {
   padding: 15px 0;
   border-bottom: 1px solid lightgray;
+}
+
+.logo {
+  font-family: lobster, arial;
+  font-size: 45px;
 }

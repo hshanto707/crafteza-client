@@ -1,3 +1,9 @@
+:root {
+  --dark: #383838;
+  --lightDark: #7f7f7f;
+  --orange: #ff6060;
+}
+
 * {
   margin: 0;
   padding: 0;

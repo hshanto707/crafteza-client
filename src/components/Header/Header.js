@@ -1,5 +1,11 @@
-import { faHeart, faShoppingCart, faUser } from "@fortawesome/free-solid-svg-icons";
+import {
+  faHeart,
+  faSearch,
+  faShoppingCart,
+  faUser,
+} from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { Badge } from "@mui/material";
 import React from "react";
 import {
   Container,
@@ -15,9 +21,9 @@ import "./Header.css";
 
 const Header = () => {
   return (
-    <Navbar bg="light" expand="lg" sticky="top" className="header">
+    <Navbar bg="light" expand="lg" sticky="top" className="header py-0">
       <Container className="justify-content-between align-items-center">
-        <Navbar.Brand href="#" className="me-5 fs-2 fw-bold">
+        <Navbar.Brand href="#" className="me-5 logo">
           Crafteza.
         </Navbar.Brand>
         <Navbar.Toggle />
@@ -40,12 +46,14 @@ const Header = () => {
                 placeholder="Search Products"
                 aria-label="search-products"
               />
-              <Button variant="outline-secondary" id="button-addon2">
-                Search
+              <Button variant="outline-secondary" id="button-addon2" className="px-3">
+                <FontAwesomeIcon icon={faSearch} />
               </Button>
             </InputGroup>
             <div className="d-flex fs-4 my-auto">
-              <FontAwesomeIcon className="me-3" icon={faShoppingCart} />
+              <Badge badgeContent={4} color="primary" className="me-3">
+                <FontAwesomeIcon icon={faShoppingCart} />
+              </Badge>
               <FontAwesomeIcon className="me-3" icon={faHeart} />
               <FontAwesomeIcon icon={faUser} />
             </div>
