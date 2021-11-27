@@ -5,7 +5,7 @@ import './Brands.css'
 const Brands = () => {
   return (
     <div style={{marginBottom: "100px"}}>
-      <h3 className="text-center mb-5 fw-bold">Our Trusted Brands</h3>
+      <h2 className="text-center mb-5 fw-bold">Our Trusted Brands</h2>
       <Container className="brand-container">
         <img src="https://templates.hibootstrap.com/ecop/default/assets/images/brand/brand1.png" alt="" className="brand" />
         <img src="https://templates.hibootstrap.com/ecop/default/assets/images/brand/brand4.png" alt="" className="brand" />
