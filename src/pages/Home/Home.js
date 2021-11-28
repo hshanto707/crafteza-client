@@ -8,6 +8,7 @@ import Footer from '../../components/Footer/Footer';
 import Brands from '../../components/Brands/Brands';
 import Services from '../../components/Services/Services';
 import Categories from '../../components/Categories/Categories';
+import Testimonial from '../../components/Testimonial/Testimonial';
 
 const Home = () => {
   return (
@@ -20,11 +21,11 @@ const Home = () => {
 
       <Banner />
 
+      <Services />
+
       <Brands />
 
-      {/* TESTIMONIALS */}
-
-      <Services />
+      <Testimonial />
 
       <Newsletter />
 

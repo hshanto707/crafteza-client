@@ -21,7 +21,7 @@ import "./Header.css";
 const Header = () => {
   return (
     <Navbar bg="light" expand="lg" sticky="top" className="header py-0">
-      <Container className="justify-content-between align-items-center">
+      <Container className="justify-content-between align-items-center mt-0">
         <Navbar.Brand href="#" className="me-5 logo">
           Crafteza.
         </Navbar.Brand>
