@@ -1,0 +1,44 @@
+.category-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.category {
+  z-index: 1;
+  position: relative;
+  margin: 0 auto;
+  border-radius: 8px;
+}
+
+.category img {
+  z-index: 1;
+  border-radius: 8px;
+  width: 100%;
+}
+
+.category h4 {
+  z-index: 3;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0 auto;
+}
+
+.overlay {
+  position: absolute;
+  border-radius: 8px;
+  width: auto;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(33,42,52, 0.4);
+  z-index: 2;
+  transition: 0.3s;
+}
+
+.category:hover .overlay {
+  background-color: rgba(33,42,52, 0.7);
+}

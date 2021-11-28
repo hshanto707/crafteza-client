@@ -7,6 +7,7 @@ import Newsletter from '../../components/Newsletter/Newsletter';
 import Footer from '../../components/Footer/Footer';
 import Brands from '../../components/Brands/Brands';
 import Services from '../../components/Services/Services';
+import Categories from '../../components/Categories/Categories';
 
 const Home = () => {
   return (
@@ -15,7 +16,7 @@ const Home = () => {
 
       <Hero />
 
-      {/* PRODUCTS */}
+      <Categories />
 
       <Banner />
 
