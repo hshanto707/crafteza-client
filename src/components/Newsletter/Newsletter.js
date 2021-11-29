@@ -6,7 +6,7 @@ import "./Newsletter.css";
 
 const Newsletter = () => {
   return (
-    <Container className="newsletter my-5">
+    <Container className="newsletter mb-5">
       <div>
         <InputGroup className="w-100">
           <FormControl

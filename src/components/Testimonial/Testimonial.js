@@ -4,7 +4,7 @@ import './Testimonial.css'
 const Testimonial = () => {
   return (
     <div>
-    <h2 className="text-center mb-5 fw-bold">Our Client Testimonials</h2>
+    <h2 className="text-center pb-5 fw-bold">Our Client Testimonials</h2>
       <div className="container">
         <div className="row">
           <div className="col-lg-4">
@@ -15,7 +15,7 @@ const Testimonial = () => {
               </div>
               <div className="face back-face">
                 <span className="fas fa-quote-left"></span>
-                <div className="testimonial"> I made bacck the purchase price in just 48 hours! Thank you for making it pain less, pleasant. The service was execellent. I will refer everyone I know. </div> <span className="fas fa-quote-right"></span>
+                <div className="testimonial"> I made back the purchase price in just 48 hours! Thank you for making it pain less, pleasant. The service was execellent. I will refer everyone I know. </div> <span className="fas fa-quote-right"></span>
               </div>
             </div>
           </div>
@@ -26,7 +26,7 @@ const Testimonial = () => {
                       <div className="designation">Full Stack Developer</div>
                   </div>
                   <div className="face back-face"> <span className="fas fa-quote-left"></span>
-                      <div className="testimonial"> Really good, you have saved our business! I made bacck the purchase price in just 48 hours! man, this thing is getting better and better as I learn more about it. </div> <span className="fas fa-quote-right"></span>
+                      <div className="testimonial"> Really good, you have saved our business! I made back the purchase price in just 48 hours! man, this thing is getting better and better as I learn more about it. </div> <span className="fas fa-quote-right"></span>
                   </div>
               </div>
           </div>
@@ -37,7 +37,7 @@ const Testimonial = () => {
                       <div className="designation">Finance Director</div>
                   </div>
                   <div className="face back-face"> <span className="fas fa-quote-left"></span>
-                      <div className="testimonial"> Account keeper is the most valuable business research we have EVER purchased. Without electrician, we would ahave gone bankrupt by now. </div> <span className="fas fa-quote-right"></span>
+                      <div className="testimonial"> They serve really good. They way the behave with their customers is amazing. I will order more furniture from them in near future and I will recommend them to my friends.</div> <span className="fas fa-quote-right"></span>
                   </div>
               </div>
             </div>

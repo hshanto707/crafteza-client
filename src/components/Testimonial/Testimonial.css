@@ -16,10 +16,6 @@
   }
 }
 
-.container {
-  margin-top: 80px
-}
-
 .container .col-lg-4 {
   display: flex;
   justify-content: center
@@ -82,7 +78,7 @@
 
 .card .face.back-face {
   position: absolute;
-  background: var(--dark);
+  background: var(--orange);
   transform: rotateY(180deg);
   padding: 20px 30px;
   text-align: center;

@@ -4,7 +4,7 @@ import "./Banner.css";
 
 const Banner = () => {
   return (
-    <div className="banner d-flex g-5" style={{marginBottom: "100px"}}>
+    <div className="banner d-flex g-5">
       <img
         className="banner-img d-block me-auto"
         src="https://templates.hibootstrap.com/ecop/default/assets/images/buy-main1.png"

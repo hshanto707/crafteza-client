@@ -1,10 +1,10 @@
 import React from "react";
-import { Button, Carousel, Container } from "react-bootstrap";
+import { Carousel, Container } from "react-bootstrap";
 import "./Hero.css";
 
 const Hero = () => {
   return (
-    <Carousel variant="dark" className="hero" style={{marginBottom: "100px"}}>
+    <Carousel variant="dark" className="hero">
       <Carousel.Item>
         <img
           className="hero-img d-block ms-auto"
