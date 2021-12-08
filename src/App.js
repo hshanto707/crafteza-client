@@ -6,6 +6,7 @@ import {
 import './App.css';
 import Footer from "./components/Footer/Footer";
 import Header from "./components/Header/Header";
+import Newsletter from "./components/Newsletter/Newsletter";
 import AllProducts from "./pages/AllProducts/AllProducts";
 import Home from "./pages/Home/Home";
 import NotFound from "./pages/NotFound/NotFound";
@@ -22,6 +23,7 @@ function App() {
         <Route path="/all-products" element={<AllProducts />}/>
         <Route path="*" element={<NotFound />}/>
       </Routes>
+      <Newsletter />
       <Footer />
     </BrowserRouter>
   );

@@ -1,18 +1,32 @@
 .products-header {
-  width: 100vw;
-  height: 200px;
-  background: url(https://lh3.googleusercontent.com/proxy/xexr0imS8z7AFUPA2w9NDt7hNlyAdpTlyz4IDA-QyyuMp4muKvU9XXXfxZSSa5ZOrypJrOeQveR7DOSZ1mD1XquzdRQHBg5t6mp92Qp9xTwPh97IqxkDwmRFs2udOM09VOeTkjhMS637) no-repeat;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background: url(https://media.istockphoto.com/photos/the-interior-furniture-white-background-and-living-3d-rendering-picture-id861282844?k=20&m=861282844&s=170667a&w=0&h=8KxevmqrGcxHogVq25-XZEMPYZI4u-v0SSrSGfoCjqg=) no-repeat; */
   text-align: center;
   box-sizing: border-box;
   object-fit: cover;
   background-position: bottom;
 }
 
+.products-header h1 {
+  position: absolute;
+  font-size: 60px;
+  /* text-align: center; */
+}
+
 .products-header img {
   width: 100%;
+  height: 300px;
+  box-sizing: border-box;
+  object-fit: cover;
+  object-position: 0 -250px;
+  ;
 }
 
 .products-body {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: 1fr 3fr;
+  margin-top: 150px;
 }

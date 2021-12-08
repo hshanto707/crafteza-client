@@ -16,15 +16,16 @@ import {
   Button,
   InputGroup,
 } from "react-bootstrap";
+import { NavLink } from "react-router-dom";
 import "./Header.css";
 
 const Header = () => {
   return (
     <Navbar bg="light" expand="lg" sticky="top" className="header py-0">
       <Container className="justify-content-between align-items-center mt-0">
-        <Navbar.Brand href="#" className="me-5 logo">
+        <NavLink to="/" className="me-5 logo">
           Crafteza.
-        </Navbar.Brand>
+        </NavLink>
         <Navbar.Toggle />
         <Navbar.Collapse className="justify-content-between">
           <Nav
@@ -32,13 +33,16 @@ const Header = () => {
             style={{ maxHeight: "100px" }}
           >
             <div className="d-flex fs-5">
-              <Nav.Link href="#action1">Home</Nav.Link>
-              <NavDropdown title="Products">
-                <NavDropdown.Item href="#action3">Action</NavDropdown.Item>
-                <NavDropdown.Item href="#action4">
-                  Another action
-                </NavDropdown.Item>
-              </NavDropdown>
+              <NavLink to="/all-products" className="nav-item dropdown">
+                <span>Products</span>
+                <div className="dropdown-content">
+                  <NavLink to="/" className="nav-item">product 1</NavLink>
+                  <NavLink to="/" className="nav-item">product 1</NavLink>
+                  <NavLink to="/" className="nav-item">product 1</NavLink>
+                  <NavLink to="/" className="nav-item">product 1</NavLink>
+                  <NavLink to="/" className="nav-item">product 1</NavLink>
+                </div>
+              </NavLink>
             </div>
             <InputGroup className="w-50">
               <FormControl

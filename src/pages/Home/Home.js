@@ -19,7 +19,6 @@ const Home = () => {
       <Services />
       <Brands />
       <Testimonial />
-      <Newsletter />
     </div>
   );
 };
