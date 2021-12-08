@@ -1,0 +1,36 @@
+.order-successful {
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: var(--dark);
+}
+
+.order-successful img {
+  width: 200px;
+}
+
+.order-successful h1 {
+  font-size: 110px;
+  font-weight: bolder;
+}
+
+.order-successful h2 {
+  font-size: 40px;
+  font-weight: bolder;
+}
+
+.order-successful h5 {
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.order-successful .link {
+  display: inline-block;
+}
+
+.order-successful .link:hover {
+  color: var(--orange);
+}

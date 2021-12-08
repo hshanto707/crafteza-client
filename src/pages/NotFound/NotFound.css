@@ -1,0 +1,33 @@
+.not-found {
+  position: relative;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: var(--dark);
+  margin: 300px 0 100px;
+}
+
+.not-found h1 {
+  font-size: 110px;
+  font-weight: bolder;
+}
+
+.not-found h2 {
+  font-size: 40px;
+  font-weight: bolder;
+}
+
+.not-found h5 {
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.not-found .link {
+  display: inline-block;
+}
+
+.not-found .link:hover {
+  color: var(--orange);
+}

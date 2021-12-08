@@ -1,0 +1,18 @@
+.products-header {
+  width: 100vw;
+  height: 200px;
+  background: url(https://lh3.googleusercontent.com/proxy/xexr0imS8z7AFUPA2w9NDt7hNlyAdpTlyz4IDA-QyyuMp4muKvU9XXXfxZSSa5ZOrypJrOeQveR7DOSZ1mD1XquzdRQHBg5t6mp92Qp9xTwPh97IqxkDwmRFs2udOM09VOeTkjhMS637) no-repeat;
+  text-align: center;
+  box-sizing: border-box;
+  object-fit: cover;
+  background-position: bottom;
+}
+
+.products-header img {
+  width: 100%;
+}
+
+.products-body {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}

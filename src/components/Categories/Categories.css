@@ -1,9 +1,10 @@
 .categories {
   padding: 150px 0;
-  width: 100vw !important;
+  width: 100% !important;
 }
 
 .category-container {
+  width: 100%;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 20px;

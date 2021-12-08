@@ -13,23 +13,13 @@ import Testimonial from '../../components/Testimonial/Testimonial';
 const Home = () => {
   return (
     <div>
-      <Header />
-
       <Hero />
-
       <Categories />
-
       <Banner />
-
       <Services />
-
       <Brands />
-
       <Testimonial />
-
       <Newsletter />
-
-      <Footer />
     </div>
   );
 };
