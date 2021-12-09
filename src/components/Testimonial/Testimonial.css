@@ -21,7 +21,7 @@
   justify-content: center
 }
 
-.card {
+.testimonial-card {
   width: 300px;
   height: 300px;
   transform-style: preserve-3d;
@@ -30,7 +30,7 @@
   background-color: inherit
 }
 
-.card .face {
+.testimonial-card .face {
   position: absolute;
   color: #fff;
   width: 100%;
@@ -46,8 +46,8 @@
   border-left: 1px solid #ddd
 }
 
-.card .face.front-face,
-.card .face.back-face {
+.testimonial-card .face.front-face,
+.testimonial-card .face.back-face {
   position: absolute;
   display: flex;
   flex-direction: column;
@@ -55,28 +55,28 @@
   justify-content: center
 }
 
-.card .face.front-face .profile {
+.testimonial-card .face.front-face .profile {
   width: 150px;
   height: 150px;
   border-radius: 50%;
   object-fit: cover
 }
 
-.card .face.front-face .name {
+.testimonial-card .face.front-face .name {
   letter-spacing: 2px
 }
 
-.card .face.front-face .designation {
+.testimonial-card .face.front-face .designation {
   font-size: 0.8rem;
   color: #ddd;
   letter-spacing: 0.8px
 }
 
-.card:hover .face.front-face {
+.testimonial-card:hover .face.front-face {
   transform: rotateY(180deg)
 }
 
-.card .face.back-face {
+.testimonial-card .face.back-face {
   position: absolute;
   background: var(--orange);
   transform: rotateY(180deg);
@@ -85,21 +85,21 @@
   user-select: none
 }
 
-.card .face.back-face .fa-quote-left {
+.testimonial-card .face.back-face .fa-quote-left {
   position: absolute;
   top: 25px;
   left: 25px;
   font-size: 1.2rem
 }
 
-.card .face.back-face .fa-quote-right {
+.testimonial-card .face.back-face .fa-quote-right {
   position: absolute;
   bottom: 35px;
   right: 25px;
   font-size: 1.2rem
 }
 
-.card:hover .face.back-face {
+.testimonial-card:hover .face.back-face {
   transform: rotateY(360deg)
 }
 

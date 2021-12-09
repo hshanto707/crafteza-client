@@ -1,5 +1,6 @@
 import React from "react";
 import { Accordion } from "react-bootstrap";
+import ProductCard from "../../components/ProductCard/ProductCard";
 import "./AllProducts.css";
 
 const AllProducts = () => {
@@ -22,8 +23,15 @@ const AllProducts = () => {
             </Accordion.Item>
           </Accordion>
         </div>
-        <div>
-          
+        <div className="products-container">
+          <ProductCard></ProductCard>
+          <ProductCard></ProductCard>
+          <ProductCard></ProductCard>
+          <ProductCard></ProductCard>
+          <ProductCard></ProductCard>
+          <ProductCard></ProductCard>
+          <ProductCard></ProductCard>
+          <ProductCard></ProductCard>
         </div>
       </div>
     </div>
