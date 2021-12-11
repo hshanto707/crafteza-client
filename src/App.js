@@ -11,6 +11,7 @@ import AllProducts from "./pages/AllProducts/AllProducts";
 import Home from "./pages/Home/Home";
 import NotFound from "./pages/NotFound/NotFound";
 import OrderSuccessful from "./pages/OrderSuccessful/OrderSuccessful";
+import ProductDetail from "./pages/ProductDetail/ProductDetail";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Route path="/home" element={<Home />}/>
         <Route path="/order-successful" element={<OrderSuccessful />}/>
         <Route path="/all-products" element={<AllProducts />}/>
+        <Route path="/product-details" element={<ProductDetail />}/>
         <Route path="*" element={<NotFound />}/>
       </Routes>
       <Newsletter />

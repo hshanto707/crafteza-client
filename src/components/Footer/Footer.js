@@ -39,7 +39,10 @@ const Footer = () => {
           <p className="link">Refer a Friend</p>
         </div>
       </Container>
-      <p className="link" className="text-center py-3">Copyright &copy; 2021 | Crafteza</p>
+      <Container className="d-flex justify-content-between align-items-center  py-3">
+        <p className="m-0">Copyright &copy; 2021 | Crafteza</p>
+          <img src="http://htmlbeans.com/html/schon/images/bank-card.png" alt="" />
+      </Container>
     </div>
   );
 };

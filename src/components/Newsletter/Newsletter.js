@@ -20,13 +20,13 @@ const Newsletter = () => {
           </Button>
         </InputGroup>
       </div>
-      <div className="fs-3 mx-auto">
+      <div className="fs-3 ms-auto">
         <FontAwesomeIcon className="me-5 link" icon={faFacebookF} />
         <FontAwesomeIcon className="me-5 link" icon={faInstagram} />
         <FontAwesomeIcon className="me-5 link" icon={faTwitter} />
         <FontAwesomeIcon className="me-5 link" icon={faYoutube} />
         <FontAwesomeIcon className="me-5 link" icon={faLinkedin} />
-        <FontAwesomeIcon className="me-5 link" icon={faPinterest} />
+        <FontAwesomeIcon className="link" icon={faPinterest} />
       </div>
     </Container>
   );
