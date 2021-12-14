@@ -15,6 +15,7 @@ body {
 
 .link {
   transition: 0.3s;
+  color: var(--dark);
 }
 
 .link:hover {
@@ -25,6 +26,8 @@ body {
 .button {
   border: 1px solid var(--dark);
   color: var(--dark);
+  border-radius: 5px;
+  background: transparent;
 }
 
 .button:hover {
@@ -35,4 +38,9 @@ body {
 
 .marked {
   color: #ff6060;
+}
+
+p {
+  margin: 0;
+  padding: 0;
 }

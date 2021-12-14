@@ -1,0 +1,28 @@
+.product-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+}
+
+.product-img {
+  width: 100%;
+}
+
+.offer-price {
+  color: var(--orange);
+  font-size: 40px;
+}
+
+.reg-price {
+  text-decoration: line-through;
+  font-size: 25px;
+  font-weight: 200;
+  color: gray;
+}
+
+.quantity {
+  width: 100px;
+  border-radius: 25px;
+  padding: 0 10px;
+  border-color: var(--dark);
+}

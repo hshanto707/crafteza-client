@@ -1,10 +1,11 @@
 .order-successful {
-  position: absolute;
+  position: relative;
   text-align: center;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: var(--dark);
+  margin: 300px 0 100px;
 }
 
 .order-successful img {
