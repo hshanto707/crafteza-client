@@ -12,14 +12,16 @@ import {
   FormControl,
   Nav,
   Navbar,
-  NavDropdown,
   Button,
   InputGroup,
 } from "react-bootstrap";
 import { NavLink } from "react-router-dom";
+import useFirebase from "../../hooks/useFirebase";
 import "./Header.css";
 
 const Header = () => {
+  const { signInUsingGoogle, user, logOut } = useFirebase();
+
   return (
     <Navbar bg="light" expand="lg" sticky="top" className="header py-0">
       <Container className="justify-content-between align-items-center mt-0">
@@ -36,11 +38,21 @@ const Header = () => {
               <NavLink to="/all-products" className="nav-item dropdown">
                 <span>Products</span>
                 <div className="dropdown-content">
-                  <NavLink to="/" className="nav-item">product 1</NavLink>
-                  <NavLink to="/" className="nav-item">product 1</NavLink>
-                  <NavLink to="/" className="nav-item">product 1</NavLink>
-                  <NavLink to="/" className="nav-item">product 1</NavLink>
-                  <NavLink to="/" className="nav-item">product 1</NavLink>
+                  <NavLink to="/" className="nav-item">
+                    product 1
+                  </NavLink>
+                  <NavLink to="/" className="nav-item">
+                    product 1
+                  </NavLink>
+                  <NavLink to="/" className="nav-item">
+                    product 1
+                  </NavLink>
+                  <NavLink to="/" className="nav-item">
+                    product 1
+                  </NavLink>
+                  <NavLink to="/" className="nav-item">
+                    product 1
+                  </NavLink>
                 </div>
               </NavLink>
             </div>
@@ -53,14 +65,33 @@ const Header = () => {
                 <FontAwesomeIcon icon={faSearch} />
               </Button>
             </InputGroup>
-            <div className="d-flex fs-4 my-auto">
+            <div className="d-flex fs-4 my-auto align-items-center">
               <Badge badgeContent={4} color="primary" className="me-4">
                 <FontAwesomeIcon className="link" icon={faShoppingCart} />
               </Badge>
               <Badge badgeContent={4} color="primary" className="me-4">
                 <FontAwesomeIcon className="link" icon={faHeart} />
               </Badge>
-              <FontAwesomeIcon className="link" icon={faUser} />
+              <NavLink to="/all-products" className="nav-item dropdown">
+                <FontAwesomeIcon className="link" icon={faUser} />
+                <div className="dropdown-content me-5">
+                  {user.email ? (
+                    <span onClick={logOut} className="nav-item fs-5">
+                      Sign Out
+                    </span>
+                  ) : (
+                    <span onClick={signInUsingGoogle} className="nav-item fs-5">
+                      Sign In
+                    </span>
+                  )}
+                  <NavLink to="/" className="nav-item fs-5">
+                    Cart
+                  </NavLink>
+                  <NavLink to="/" className="nav-item fs-5">
+                    Wish List
+                  </NavLink>
+                </div>
+              </NavLink>
             </div>
           </Nav>
         </Navbar.Collapse>
